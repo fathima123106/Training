@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(156, 101, 163, 0.582);
+    text-align: center;
+    
+}
+form{
+    position: absolute;
+    top: 21%;
+    left: 40%;
+    
+}
+form input{
+    border:none;
+    outline: none;
+    background-color: transparent;
+    border-bottom:2px solid rgb(125, 116, 129) ;
+}
+
+h1{
+    position: absolute;
+    top: 9%;
+    left: 47%;
+}

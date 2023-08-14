@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    background-color: rgb(241, 245, 22);
+}
+.menu{
+    text-align: left;
+}
+.body_content{
+    padding: 10px;
+    border-left: 4px solid green;
+    margin-left: 30%;
+    position: absolute;
+    top: 10%;
+}
+.body_content #contact{
+    text-align: right;
+}
+.last{ text-align: right;
+    position: absolute;
+    right: 10px;
+    top: 10%;
+    border: 3px dotted green; 
+    padding-right: 5px;
+    margin-left: 3px;
+    padding-left: 1px;
+}
