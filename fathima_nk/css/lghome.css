@@ -80,3 +80,21 @@ footer{
     background-color: rgba(37, 58, 90, 0.603);
 
 }
+footer i{
+    transition: width 2s, height 2s, transform 2s;
+}
+footer i:hover{
+    width: 17px;
+    height: 19px;
+   
+    transform: rotate(360deg);
+    /* background-color: rgba(47, 90, 90, 0.733); */
+    color: azure;
+}
+table{
+    width: 100%;
+}
+
+table a{
+text-decoration: none;
+color: black;}
