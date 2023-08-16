@@ -37,11 +37,13 @@ body{
 }
 .nav:hover{
     background-color: rgba(88, 126, 126, 0.733);
-    color: rgb(255, 255, 255);
     font-size: 20px;
     position: absolute;
     /* margin: 20px; */
     /* width: auto; */
+}
+.nav a:hover{
+    color: rgb(255, 255, 255);
 }
 .home h1{
     color: rgb(213, 215, 233);
