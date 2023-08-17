@@ -1,0 +1,31 @@
+.nav{
+    overflow: hidden;
+    background-color:rgba(3, 33, 61, 0.925);
+ }
+ .nav a{
+    
+     /* position: absolute; */
+     /* display: inline-block; */
+     /* top: 50px; */
+     color: rgb(213, 228, 241);
+     /* text-align: center; */
+     text-decoration: none;
+     /* padding: 14px 16px; */
+   
+     /* outline: none;
+     border: none; */
+ }
+ .nav-2 a{
+    float: left;
+    padding: 14px 16px;
+    font-size: 25px;
+     text-decoration: none;
+ }
+ .nav-1 a{
+    margin-top: 0px;
+    float: left;
+    padding-left: 40px;
+    font-size: 18px;
+     text-decoration: none;
+     text-align: center;
+ }
