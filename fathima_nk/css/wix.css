@@ -29,3 +29,13 @@
      text-decoration: none;
      text-align: center;
  }
+ .bg{
+    background-image: url(../images/mANINTHESNOW2.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .txt{
+    font-family:'Times New Roman', Times, serif ;
+ }
