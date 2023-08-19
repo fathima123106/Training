@@ -38,4 +38,33 @@
  }
  .txt{
     font-family:'Times New Roman', Times, serif ;
+    color:rgba(3, 33, 61, 0.925);
+ }
+ .bgi{
+   background-image: url(../images/snowfallling.png);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-attachment:fixed;
+ }
+.cb1{
+   background-color: rgba(202, 217, 230, 0.781);
+}
+ .abtus{
+   font-family:'Times New Roman', Times, serif ;
+   text-align: center;
+   position: absolute;
+   left: 25%;
+   margin-top: 5%;
+ }
+ .abtus p,h2{
+   vertical-align: middle;
+   display:inline-block;
+   color:rgba(3, 33, 61, 0.925);
+ }
+ .tt1{
+   text-align: center;
+   color:rgba(3, 33, 61, 0.925);
  }
