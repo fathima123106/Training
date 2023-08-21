@@ -67,4 +67,13 @@
  .tt1{
    text-align: center;
    color:rgba(3, 33, 61, 0.925);
+   position: absolute;
+   left: 43%;
+   padding-top: 5px;
+   padding-bottom: 7px;
+   margin-bottom: 5px;
+
+ }
+ .carousel-item{
+   height: 500px;
  }
