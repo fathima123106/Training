@@ -83,17 +83,56 @@
  .cont{
   color:  rgb(226, 239, 250);
  }
+ form{
+  padding-left: 30px;
+  width: 1000px;
+ }
  form input{
   border:none;
   outline: none;
+  padding: 7px;
   background-color: transparent;
-  border-bottom:2px solid rgb(226, 239, 250);
+  border-bottom:1px solid rgb(216, 221, 224);
   color:  rgb(226, 239, 250);
 }
+form input:hover{
+  border:none;
+  outline: none;
+  padding: 7px;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(226, 239, 250);
+  color:  rgb(226, 239, 250);
+}
+form label{
+  padding: 15px;
+}
 form{
-  /* background-color: rgba(3, 33, 61, 0.925); */
-  position: absolute;
+   /* background-color: rgba(3, 33, 61, 0.925); */
   width: 100%;
   color:  rgb(226, 239, 250);
+  padding-bottom: 10px;
+  position: relative;
 
+}
+form button{
+  left: 60%;
+  top: 80%;
+  position: absolute;
+  width: 150x;
+}
+.ftr{
+  width: 100%; 
+  background-color:rgba(3, 33, 61, 0.925);
+}
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 400px;
+  width: 1000px;
+  left: 15%;
+  top: 10%;
+  position: absolute;
 }
