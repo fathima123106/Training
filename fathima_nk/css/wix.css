@@ -112,20 +112,23 @@ form{
   color:  rgb(226, 239, 250);
   padding-bottom: 10px;
   position: relative;
+  padding-left: 15%;
+  padding-right: 15%;
 
 }
 form button{
-  left: 60%;
-  top: 80%;
+  left: 62%;
+  top: 83%;
   position: absolute;
-  width: 150x;
+  width:15%;
+  padding: 14px 45px;
 }
 .ftr{
   width: 100%; 
-  background-color:rgba(3, 33, 61, 0.925);
+  background-color:rgba(8, 63, 114, 0.925);
 }
 .google-map {
-  padding-bottom: 50%;
+  padding-bottom: 40%;
   position: relative;
 }
 
@@ -135,4 +138,19 @@ form button{
   left: 15%;
   top: 10%;
   position: absolute;
+}
+.ftt{
+  background-color: rgba(3, 33, 61, 0.925);
+}
+footer{
+  /* background-color:rgba(8, 63, 114, 0.925); */
+  color: rgba(241, 241, 242, 0.757);
+  padding: 80px;
+}
+th{
+  color: whitesmoke;
+}
+footer a{
+  text-decoration: none;
+  color: rgba(241, 241, 242, 0.757);
 }
