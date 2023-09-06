@@ -37,3 +37,54 @@
     100% {border-right-color: transparent}
   }
   
+  .btn{
+    background-color: rgba(127, 84, 247, 0.945);
+    color: white;
+    border-radius: 8px;
+    width: 130px;
+    height: 55px;
+  }
+  .fa-play-circle-o{
+    -webkit-text-stroke:0.03px;
+    color: rgba(127, 84, 247, 0.945);
+    font-size:56px;
+    font-weight: lighter;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+  }
+  /* .button {
+    position: relative;
+    color: rgba(127, 84, 247, 0.945);
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    border-radius: 1000px;
+    padding: 10px 20px;
+    margin: 40px;
+    box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
+    transition: .5s all ease-in-out;
+    &:hover {
+      cursor: pointer;
+      background: white;
+      color: #1F4141;
+      animation: none;
+      //animation-play-state: paused;
+    }
+  } */
+
+
+  .button-pulse {
+    animation: pulse 2s infinite 3s cubic-bezier(0.25, 0, 0, 1);
+    box-shadow: 0 0 0 0 rgb(164, 66, 239);
+  }
+  @keyframes pulse {
+    to {
+      box-shadow: 0 0 0 18px rgba(255, 255, 255, 0); 
+    }
+  }
+  
+  
