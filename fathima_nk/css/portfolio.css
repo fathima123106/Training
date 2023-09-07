@@ -3,10 +3,7 @@
     width: 100%;
 }
 
-.pf1{
-    background-image: url(../images/yellow_splash.png);
 
-}
 .pf2{
     position: absolute;
     left: 55%;
@@ -44,14 +41,19 @@
     width: 130px;
     height: 55px;
   }
+  .pf1{
+    position: absolute;
+    top: 30%;
+    left:20% ;
+  }
   .fa-play-circle-o{
     -webkit-text-stroke:0.03px;
     color: rgba(127, 84, 247, 0.945);
     font-size:56px;
     font-weight: lighter;
     position: absolute;
-    top: 20%;
-    left: 10%;
+    top: 68%;
+    left: 11.5%;
 
   }
   /* .button {
@@ -80,6 +82,10 @@
   .button-pulse {
     animation: pulse 2s infinite 3s cubic-bezier(0.25, 0, 0, 1);
     box-shadow: 0 0 0 0 rgb(164, 66, 239);
+    border-radius: 100%;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right:5px;
   }
   @keyframes pulse {
     to {
