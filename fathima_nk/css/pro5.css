@@ -1,0 +1,106 @@
+*{
+  
+    font-family: sans-serif;
+    /* font-family: "Inter", sans-serif; */
+}
+
+header{
+ padding: 15px;
+ margin: 4px;
+}
+nav {
+    padding-left: 0;
+    overflow: hidden;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding-left:15px;
+    padding-right:15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+a:hover{
+    color: rgb(184, 71, 42);
+}
+.news{
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom:10px ;
+    padding-bottom: 15px;
+    background-color: rgba(3, 3, 15, 0.959);
+    color: azure;
+    height: 95%;
+    
+} 
+.second{
+
+    border-top: 1px solid rgba(78, 78, 99, 0.959);
+    border-bottom: 1px solid rgba(78, 78, 99, 0.959);
+    border-bottom-width: 1px ;
+
+
+}
+.news p{
+    color: rgba(78, 78, 99, 0.959);
+}
+
+article{
+    padding: 15px;
+}
+
+#article_heading{
+    color: rgb(165, 128, 7);
+}
+ h5:hover{
+    color: rgb(165, 128, 7);
+ }
+ .btn{
+    background-color:rgb(230, 94, 70);
+    color: azure;
+    width: 160px;
+    border-radius: 0px;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+   
+ }
+ .btn:hover{
+    background-color: rgba(3, 3, 15, 0.959);
+    color: azure;
+ }
+ #para{
+    color: rgba(127, 129, 131, 0.938);
+ }
+
+ .card{
+    border: none;
+    padding: 10px;
+    border-radius: 0px;
+ }
+ span{
+    color:rgba(134, 136, 138, 0.884) ;
+    font-size: 28px;
+ }
+  .card p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(127, 129, 131, 0.938);
+  }
+  .footer{
+    position: absolute;
+    left: 45%;
+  }
